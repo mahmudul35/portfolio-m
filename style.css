@@ -1,0 +1,92 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 43px;
+    font-weight: bolder;
+    color: rgb(226, 89, 130);
+}
+h3{
+    padding-bottom: 5px;
+}
+/*top part start here*/
+.top-part{
+    height: 700px;
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    background-position: center;
+}
+.btn{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px;
+    background-image: linear-gradient(lightsalmon,tomato);
+}
+
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+img{
+    width: 80%;
+}
+/*top part end here*/
+/*biography part start here*/
+.biograpghy{
+    height: 700px;
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+}
+.center{
+    text-align: center;
+}
+/*biography part end here*/
+/*latest work part start here*/
+.latest-work{
+   display: flex;
+   justify-content: center;
+   background-image: url("latest-work-bg.png");
+   background-repeat: no-repeat;
+   height: 350px;
+   background-position: center;
+
+}
+.work{
+    
+    width: 25%;
+    height: 300px;
+    
+
+}
+/*latest work part end here*/
+/*footer part start here*/
+.down-part{
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+.down{
+    text-align: center;
+    margin: 0px auto;
+   height: 400px;
+    width:430px ;
+    
+}
+.t{
+    background-image: linear-gradient(lightsalmon,tomato);
+    padding:10px ;
+    border-radius: 6px;
+  
+}
+.m{
+    text-align: center;
+}
+/*footer part start here*/
